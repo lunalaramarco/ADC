@@ -1,0 +1,23 @@
+TEST_1:
+Frecuencia de Muestreo: Según la configuración del ADC en el archivo app.c, la frecuencia de muestreo para TEST_1 es de 1 kHz.
+Media (Mean): 1614.55 mV
+Desviación Estándar (Std): 34.76 mV
+Comparaciones Porcentuales:
+La media de TEST_1 es un 4.08% mayor que la de TEST_2 y un 4.63% mayor que la de TEST_3.
+La desviación estándar de TEST_1 es un 87.64% mayor que la de TEST_2 y un 24.20% mayor que la de TEST_3.
+
+TEST_2:
+Frecuencia de Muestreo: En TEST_2, la frecuencia de muestreo se incrementa a 2 kHz, como se especifica en la configuración del temporizador en app.c.
+Media (Mean): 1548.68 mV
+Desviación Estándar (Std): 4.30 mV
+Comparaciones Porcentuales:
+La media de TEST_2 es un 4.08% menor que la de TEST_1 y un 0.57% menor que la de TEST_3.
+La desviación estándar de TEST_2 es un 87.64% menor que la de TEST_1 y un 513.29% mayor que la de TEST_3.
+
+TEST_3:
+Frecuencia de Muestreo: Para TEST_3, la frecuencia de muestreo se ajusta a 500 Hz, según la configuración del ADC en el archivo app.c.
+Media (Mean): 1539.78 mV
+Desviación Estándar (Std): 26.35 mV
+Comparaciones Porcentuales:
+La media de TEST_3 es un 4.63% menor que la de TEST_1 y un 0.57% mayor que la de TEST_2.
+La desviación estándar de TEST_3 es un 24.20% menor que la de TEST_1 y un 513.29% menor que la de TEST_2.
